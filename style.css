@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 18px;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    color: #2B292D;
+ 
+}
+
+.site{
+    position: relative;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding: 45px 0 80px 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.container{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+  align-items: center;
+}
+
+.logo__name{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.logo__text{
+    color: rgb(43 41 45 / 60%);
+font-weight: 300;
+}
+.btn{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3040C4;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-white{
+   color: #3040C4; 
+   background-color: #FFFFFF;
+}
+
+.nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+
+.nav__list{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav__link{
+    color: #2B292D;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+  font-weight: bold;
+}
+
+.promo{
+    background-color: #F9D9EB;
+    height: 700px;
+
+}
+
+.promo .container{
+    display: flex;
+    justify-content: center;
+
+}
+.promo__contant{
+    width: 70%;
+}
+
+.promo__title{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.promo__text{
+    font-size: 1.3rem;
+}
+
+.possibilities{
+    height: 630px;
+}
+
+.possibilities .container{
+    display: flex;
+    gap: 1.6rem;
+}
+
+.possibilities__card{
+display: flex;
+flex-direction: column;
+}
+
+.possibilities__img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.about__contant{
+    /* display: flex;
+    flex-direction: column;
+    gap: 2rem; */
+    width: 50%;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__subtitle{
+    color: #807F81;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.about__title{
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.about__text{
+    font-size: 1.3rem;
+}
