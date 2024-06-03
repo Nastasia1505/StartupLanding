@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <div class="site">
@@ -24,6 +25,10 @@
             </div>
           </div>
           <nav class="nav">
+            <button class="nav__toggle">
+              <label for="nav__toggle"></label><span class="nav__menu"></span>
+            </button>
+            <input type="checkbox" id="nav__toggle" />
             <ul class="nav__list">
               <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
               <li class="nav__item">
@@ -48,7 +53,7 @@
             <button class="btn">Get Started</button>
             <button class="btn btn-white">Learn More</button>
           </div>
-          <img src="./assets/promo.png" alt="#" />
+          <img src="./assets/promo.png" class="promo__img" alt="#" />
         </div>
       </section>
       <section class="possibilities">
@@ -141,12 +146,16 @@
             </p>
             <button class="btn">Get Started</button>
           </div>
-          <img src="./assets/about.png" alt="#" />
+          <img src="./assets/about.png" class="about__img" alt="#" />
         </div>
       </section>
       <section class="subscription">
         <div class="container">
-          <img src="./assets/subscription.png" alt="#" />
+          <img
+            src="./assets/subscription.png"
+            class="subscription__img"
+            alt="#"
+          />
           <div class="subscription__content">
             <h2 class="subscription__title">Start your free trial.</h2>
             <p class="subscription__text">
@@ -227,15 +236,17 @@
           </div>
         </div>
         <div class="footer__part">
-          <ul class="footer__rules">
-            <li><a href="#" class="footer__text">Terms</a></li>
-            <li><a href="#" class="footer__text">Privacy</a></li>
-            <li><a href="#" class="footer__text">License</a></li>
-          </ul>
-          <div class="footer__network">
-            <a href="#"><img src="./assets/icon-fb.png" alt="fb" /></a>
-            <a href="#"><img src="./assets/icon-twitter.png" alt="tw" /></a>
-            <a href="#"><img src="./assets/LinkedIn.png" alt="li" /></a>
+          <div class="container">
+            <ul class="footer__rules">
+              <li><a href="#" class="footer__text">Terms</a></li>
+              <li><a href="#" class="footer__text">Privacy</a></li>
+              <li><a href="#" class="footer__text">License</a></li>
+            </ul>
+            <div class="footer__network">
+              <a href="#"><img src="./assets/icon-fb.png" alt="fb" /></a>
+              <a href="#"><img src="./assets/icon-twitter.png" alt="tw" /></a>
+              <a href="#"><img src="./assets/LinkedIn.png" alt="li" /></a>
+            </div>
           </div>
         </div>
       </section>

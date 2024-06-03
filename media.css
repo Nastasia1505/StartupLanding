@@ -1,0 +1,125 @@
+@media (max-width: 1320px) {
+  .categories__list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+
+  .nav {
+    gap: 1rem;
+  }
+
+  .nav__item {
+    width: 50px;
+  }
+
+  .promo {
+    text-align: center;
+  }
+
+  .categories__list {
+    width: 100%;
+  }
+
+  .promo__img {
+    display: none;
+  }
+
+  .promo__title {
+    width: 100%;
+  }
+
+  .promo__text {
+    width: 100%;
+  }
+
+  .subscription .container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 70%;
+  }
+
+  .possibilities {
+    padding: 3rem 0;
+  }
+
+  .possibilities .container {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .possibilities__card {
+    gap: 0.5rem;
+    width: 250px;
+    height: 300px;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+  }
+
+  .categories {
+    padding: 3rem 0;
+  }
+
+  .categories__text {
+    margin-bottom: 3rem;
+  }
+
+  .subscription__img {
+    display: none;
+  }
+
+  .about {
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+  }
+
+  .about__contant {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about__img {
+    display: none;
+  }
+
+  .footer__title {
+    margin-bottom: 1rem;
+  }
+
+  .footer__link {
+    margin-top: 0.5rem;
+  }
+}
+
+/* @media (max-width: 768px) {
+} */
+
+@media (max-width: 640px) {
+  /* .subscription__content {
+    justify-content: center;
+  } */
+
+  .subscription__form form {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 375px) {
+}
