@@ -18,7 +18,7 @@
       <div class="header">
         <div class="container">
           <div class="logo">
-            <img src="./assets/logo.png" alt="logo" />
+            <img src="./assets/logo.png" alt="logo" class="logo__img" />
             <div class="logo__contant">
               <p class="logo__name">Foundation</p>
               <p class="logo__text">Startup landing template</p>
@@ -26,7 +26,23 @@
           </div>
           <nav class="nav">
             <button class="nav__toggle">
-              <label for="nav__toggle"></label><span class="nav__menu"></span>
+              <label for="nav__toggle">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.6665 11.6667L8.33325 11.6668M31.6665 20.0001H8.33325M31.6665 28.3334L8.33325 28.3334"
+                    stroke="#2b292d"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </label>
             </button>
             <input type="checkbox" id="nav__toggle" />
             <ul class="nav__list">
@@ -42,6 +58,7 @@
           </nav>
         </div>
       </div>
+
       <section class="promo">
         <div class="container">
           <div class="promo__contant">
@@ -181,7 +198,11 @@
           <div class="container">
             <div class="footer__description">
               <div class="logo">
-                <img src="./assets/logoFooter.png" alt="logo" />
+                <img
+                  src="./assets/logoFooter.png"
+                  alt="logo"
+                  class="logo__img"
+                />
                 <div class="logo__contant">
                   <p class="logo__name">Foundation</p>
                   <p class="logo__text">Startup landing template</p>

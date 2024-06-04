@@ -32,10 +32,7 @@
     display: none;
   }
 
-  .promo__title {
-    width: 100%;
-  }
-
+  .promo__title,
   .promo__text {
     width: 100%;
   }
@@ -46,8 +43,52 @@
 }
 
 @media (max-width: 800px) {
+  .promo {
+    padding-top: 7rem;
+  }
+  .promo__contant {
+    position: static;
+    z-index: 0;
+  }
+
+  .header .container .logo {
+    display: none;
+  }
+
+  .nav .btn {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  .nav__list {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(83, 81, 85, 0.856);
+    padding: 3rem 6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    box-shadow: 0 0 60px rgba(83, 81, 85, 0.911);
+  }
+
+  #nav__toggle:checked ~ .nav__list {
+    display: flex;
+  }
+
+  .nav__link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffff;
+  }
+
   .container {
-    width: 70%;
+    width: 90%;
   }
 
   .possibilities {
@@ -73,6 +114,15 @@
 
   .categories__text {
     margin-bottom: 3rem;
+  }
+
+  .subscription .container {
+    text-align: center;
+  }
+
+  .subscription__form form {
+    flex-direction: column;
+    align-items: center;
   }
 
   .subscription__img {
@@ -102,24 +152,50 @@
   }
 }
 
-/* @media (max-width: 768px) {
-} */
-
 @media (max-width: 640px) {
-  /* .subscription__content {
-    justify-content: center;
-  } */
+  .container {
+    width: 90%;
+  }
 
-  .subscription__form form {
+  .logo__img {
+    width: 50px;
+    height: 45px;
+  }
+
+  .promo__title {
+    font-size: 3rem;
+  }
+
+  .categories__card {
+    padding: 2rem 2rem;
+    gap: 1rem;
+    width: 200px;
+    max-height: 250px;
+  }
+
+  .footer_main .container {
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer__description {
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 }
 
 @media (max-width: 425px) {
-}
+  html {
+    font-size: 12px;
+  }
 
-@media (max-width: 375px) {
-}
-
-@media (max-width: 375px) {
+  .promo__title,
+  .categories__title,
+  .about__title {
+    font-size: 2.2rem;
+  }
 }
